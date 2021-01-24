@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="21.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Audioburst.QuoteQuiz.Common.Data.Models\Audioburst.QuoteQuiz.Common.Data.Models.csproj" />
+    <ProjectReference Include="..\Audioburst.QuoteQuiz.Data\Audioburst.QuoteQuiz.Data.csproj" />
+  </ItemGroup>
+
+</Project>
